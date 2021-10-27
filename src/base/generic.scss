@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+h1 {
+    margin: 0;
+    
+    font-weight: 700;
+    font-size: 2.85714em;
+    line-height: 1.45;
+  
+    color: $main-color;
+  
+    text-align: center;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    margin: 0;
+
+    font-weight: 700;
+    font-size: 1.714288em;
+    line-height: 1.46;
+    
+    color: $main-color;
+
+    text-align: center;
+}
+h3 {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 1.714288em;
+    line-height: 1.46;
+
+    color: $secondary-color;
+
+    text-align: center;
+}
+
+p {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.43;
+    text-align: center;
+
+    color: $secondary-color;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}

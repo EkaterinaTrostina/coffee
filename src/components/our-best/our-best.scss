@@ -1,0 +1,18 @@
+.our-best {
+    padding: 80px 0 110px 0;
+    background : url('./our-best-bg.jpg') no-repeat center;
+    background-size: cover;
+
+    .best-cards {
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .best-card {
+        margin: 20px 10px 0 10px;
+
+    }
+}

@@ -1,0 +1,9 @@
+@import '../../base/variables.scss';
+
+.logo {
+    fill: $main-color;
+
+    &--secondary {
+        fill: $secondary-color;
+    }
+}

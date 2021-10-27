@@ -1,0 +1,21 @@
+@import '../../base/variables.scss';
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        width: 60px;
+        height: 1px;
+        margin: 0 20px;
+        background-color: $main-color;
+    };
+
+    &--secondary {
+        span {
+            background-color: $secondary-color;
+        }
+        
+    }
+}
