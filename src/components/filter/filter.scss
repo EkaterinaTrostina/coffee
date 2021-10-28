@@ -1,0 +1,31 @@
+@import '../../base/variables.scss';
+
+.filters {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-right: 30px;
+    }
+};
+
+.filter-btn {
+    padding: 5px 9px;
+    margin: 0 3px;
+
+    font-size: 0.857em;
+
+    background-color: $main-color;
+
+    border: none;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 4px;
+
+    transition: ease .3s all;
+    &:hover {
+        opacity: .8;
+    }
+}
+.active-btn {
+    box-shadow: 4px 4px 20px rgb(173, 113, 1);
+}

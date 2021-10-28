@@ -8,16 +8,27 @@ class Card extends Component {
     }
    
     render () {
-        const {name, cost, src, alt, className} = this.props;
-
+        const {name, cost, src, alt, className, link, country} = this.props;
+        if(country) {
+            return(
+                <div className = {`card ${className}`} key={name}>
+                    <a href= {link}></a>
+                    <img src={src} alt={alt}/>
+                    <div>{name}</div>
+                    <div>{country}</div>
+                    <div>{cost}</div>
+                </div>
+            )
+        }
         return(
             <div className = {`card ${className}`} key={name}>
-                <a href= "#"></a>
+                <a href= {link}></a>
                 <img src={src} alt={alt}/>
                 <div>{name}</div>
                 <div>{cost}</div>
             </div>
         )
+
 
     }
 }

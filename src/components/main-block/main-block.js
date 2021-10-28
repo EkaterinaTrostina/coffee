@@ -6,7 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import './main-block.scss';
 import '../../base/generic.scss';
 
-const MainBlock = () => {
+const MainBlockHomePage = () => {
     return (
         <section className= 'main-block'>
             <Container>
@@ -22,6 +22,24 @@ const MainBlock = () => {
         </section>
         
     )
+};
+
+const MainBlock = () => {
+    return (
+        <section className= 'main-block-our-coffee'>
+            <Container>
+                <Row>
+                    <Col>
+                        <Navi/>
+                        <h1>Our Coffee</h1>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
+        
+    )
 }
 
-export default MainBlock;
+export default MainBlockHomePage;
+
+export {MainBlock};

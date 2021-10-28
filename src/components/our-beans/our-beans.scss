@@ -1,0 +1,24 @@
+@import '../../base/variables.scss';
+
+.our-beans {
+    margin-top: 70px;
+    h3 {
+        margin: 20px 0;
+    }
+    p {
+        margin-top: 25px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.our-beans-line {
+    margin-top: 60px;
+    
+    width: 240px;
+    height: 1px;
+
+    background-color: $secondary-color;
+}

@@ -45,6 +45,13 @@ p {
 
     color: $secondary-color;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 ul {
     padding: 0;
     margin: 0;
